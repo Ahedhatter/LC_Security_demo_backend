@@ -67,9 +67,9 @@ app.add_middleware(
         "http://127.0.0.1:8001", 
         "https://demo.lcsecurity.ai",  # ✅ No trailing slash
         "https://demo-lcsecurity.lovable.app",  # ✅ No trailing slash
-        "chrome-extension://dddfmnkdncldohpigmnogfefkolacplh", 
-        "chrome-extension://hklfcppnagidajinbpihfpjnlabpbgnl",  # ✅ Fixed protocol
+        "chrome-extension://dddfmnkdncldohpigmnogfefkolacplh",
         "chrome-extension://efcdjkdffhbehmkegmpmopkglacllggo"
+        "chrome-extension://hklfcppnagidajinbpihfpjnlabpbgnl",  # ✅ Fixed protocol
         "chrome-extension://*"
     ],
     allow_credentials=True,
